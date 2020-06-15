@@ -6,18 +6,4 @@ It is an android application which it's mainly built and used to take advantage 
 So, our concern about the application is to develop the user experience for smartphones and their home screen interface. As an example, and this was the first feature which we had worked on is the user Call Logs. John calls Adam, Christin and two other people from 9:00 to 11:00 on Saturday, within those two hours, these four contacts will appear on the home screen widget waiting for Ahmed to click on the name that he wants to call. Then from 12:00 to 14:00, those four will be changed to another four that the application had predicted that he would call. Other features had thought about as a future work such as predicting his/her waking up time for work or school and set the alarm for him/her automatically. Similar to the call logs feature is the most used applications at specific periods such as uber and email, in addition to many other features.  
 
 # Photos
-![GitHub Logo](/images/Android Mobile – 1.png)
-Format: ![Alt Text](url)
-![GitHub Logo](/images/Android Mobile – 2.png)
-![GitHub Logo](/images/Android Mobile – 3.png)
-![GitHub Logo](/images/Android Mobile – 4.png)
-![GitHub Logo](/images/Android Mobile – 5.png)
-![GitHub Logo](/images/Android Mobile – 6.png)
-![GitHub Logo](/images/Android Mobile – 7.png)
-![GitHub Logo](/images/Android Mobile – 8.png)
-![GitHub Logo](/images/Android Mobile – 9.png)
-![GitHub Logo](/images/Android Mobile – 10.png)
-![GitHub Logo](/images/Android Mobile – 11.png)
-![GitHub Logo](/images/Android Mobile – 12.png)
-![GitHub Logo](/images/Android Mobile – 13.png)
-![GitHub Logo](/images/Android Mobile – 14.png)
+![alt text](https://github.com/Marwa2Mohamed/GraduationProject/blob/master/Android Mobile – 1.png?raw=true)
