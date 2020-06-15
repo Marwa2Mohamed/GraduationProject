@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="20dp"
+    tools:context=".page2">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text="Paia is a widget, make sure you place it on your home screen."
+            android:textColor="#000000"
+            android:textSize="15dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:paddingTop="5dp"
+            android:text="Paia needs no connection to operate throughout the day, but it's is required to collect data and improve itself."
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:paddingTop="5dp"
+            android:text="Feedback is a critical  part at this stage, please report your experiences and forward your questions to us."
+            android:textColor="#000000"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="200dp"
+
+        android:drawableLeft="@drawable/ic_radio_button_checked_black_24dp"
+        android:fontFamily="sans-serif-medium"
+        android:text=" You are now one of Paia's Testers "
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="280dp"
+        android:text="Thank you,"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="215dp"
+        android:paddingTop="300dp"
+        android:text="PAIA team "
+        android:textColor="#deaa1c"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="5dp"
+        android:drawableRight="@drawable/ic_navigate_next_black_24dp"
+        android:text="Next"
+        android:textColor="#ffffff"
+        android:textSize="14dp"
+
+
+        />
+
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:drawableLeft="@drawable/ic_navigate_before_black_24dp"
+        android:text="Back"
+        android:textColor="#ffffff"
+        android:textSize="14dp"
+
+        />
+
+</RelativeLayout>

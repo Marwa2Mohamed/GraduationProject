@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- this page  loading  to be show widget and add in home screen   -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".page4">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="25dp"
+            android:drawableLeft="@drawable/ic_radio_button_checked_black_24dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="We are collecting  the Data"
+            android:textColor="#000000"
+            android:textSize="20dp"
+
+            />
+
+
+        <!-- ends loading when data back from server and add in widget  -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <ProgressBar
+            android:id="@+id/ProgressBar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="100dp"
+            android:max="100"
+            android:progress="60" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Please Wait...."
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:layout_below="@+id/ProgressBar"
+                android:id="@+id/pleasewait"
+                android:layout_marginLeft="100dp"
+                />
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="5dp"
+        android:drawableRight="@drawable/ic_navigate_next_black_24dp"
+        android:text="Next"
+        android:textColor="#ffffff"
+        android:textSize="14dp"
+        android:visibility="invisible"
+
+
+        />
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:drawableLeft="@drawable/ic_navigate_before_black_24dp"
+        android:text="Back"
+        android:textColor="#ffffff"
+        android:textSize="14dp"
+
+        />
+</RelativeLayout>

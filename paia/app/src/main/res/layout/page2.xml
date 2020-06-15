@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="20dp"
+    tools:context=".page2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:drawableLeft="@drawable/ic_radio_button_checked_black_24dp"
+            android:fontFamily="sans-serif-medium"
+            android:text=" Paia comes in a widget form that transforms throughout the day to adapt to your usage expectations"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <!-- will change photo when end final desine about widget  -->
+        <ImageView
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxWidth="300dp"
+            android:maxHeight="240dp"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/home_screen"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="320dp"
+            android:drawableLeft="@drawable/ic_radio_button_checked_black_24dp"
+            android:fontFamily="sans-serif-medium"
+            android:text=" PAIA is in alpha phase:"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="55dp"
+            android:text="Because Paia is still under development, it means you are one of our first users"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="5dp"
+        android:drawableRight="@drawable/ic_navigate_next_black_24dp"
+        android:text="Next"
+        android:textColor="#ffffff"
+        android:textSize="14dp"
+
+
+        />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:drawableLeft="@drawable/ic_navigate_before_black_24dp"
+        android:text="Back"
+        android:textColor="#ffffff"
+        android:textSize="14dp"
+
+        />
+
+</RelativeLayout>

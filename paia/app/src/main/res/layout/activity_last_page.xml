@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LastPageActivity"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/ic_radio_button_checked_black_24dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Usage data has now been processed, your personalized widget is now ready."
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:drawableLeft="@drawable/ic_radio_button_checked_black_24dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="How apply widget:"
+        android:textColor="#000000"
+        android:textSize="22dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:paddingStart="15dp"
+        android:text="- Long press the home screen and select widgets."
+        android:textColor="#000000"
+        android:textSize="21dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:paddingStart="15dp"
+        android:text="- Now from the widgets Screen, scroll to PAIA and hold the widget to drag it onto your home screen."
+        android:textColor="#000000"
+        android:textSize="21dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:paddingStart="10dp"
+        android:layout_marginTop="30dp"
+        android:text=" Click Finished when you set the widget on your home screen.
+"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/ic_radio_button_checked_black_24dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="5dp"
+            android:drawableRight="@drawable/ic_navigate_next_black_24dp"
+            android:text="Finished"
+            android:textColor="#ffffff"
+            android:textSize="14dp"
+
+
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

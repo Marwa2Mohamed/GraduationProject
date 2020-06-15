@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="20dp"
+    android:background="@drawable/bakk"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp"
+            android:drawableLeft="@drawable/ic_radio_button_checked_black_24dp"
+            android:fontFamily="sans-serif-medium"
+            android:text=" Welcome to"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="PAIA"
+            android:textColor="#deaa1c"
+            android:textSize="21dp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="45dp"
+        android:text="The Predictive Automated Interface Application"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="97dp"
+        android:text="A vision for intelligent user interface"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+    <!-- if add any feature edit this text-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="330dp"
+        android:text="Learns how you use your phone to predicts your actions. Collects usage data frequenty and factors it in to keep improving"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:id="@+id/text1"/>
+
+
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="5dp"
+        android:drawableRight="@drawable/ic_navigate_next_black_24dp"
+        android:text="Next"
+        android:textColor="#ffffff"
+        android:textSize="14dp"
+
+
+        />
+</RelativeLayout>
